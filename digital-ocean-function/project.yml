@@ -1,0 +1,21 @@
+parameters: {}
+environment: {}
+packages:
+    - name: teste
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: function
+          binary: false
+          main: ""
+          runtime: python:3.11
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits:
+            timeout: 120000
+            memory: 128
